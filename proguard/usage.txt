@@ -1,0 +1,38 @@
+au.com.twoFourSevendoctor.channelDoctor.BuildConfig
+au.com.twoFourSevendoctor.channelDoctor.JSON.JSONParser
+au.com.twoFourSevendoctor.channelDoctor.R
+au.com.twoFourSevendoctor.channelDoctor.R$attr
+au.com.twoFourSevendoctor.channelDoctor.R$dimen
+au.com.twoFourSevendoctor.channelDoctor.R$drawable
+au.com.twoFourSevendoctor.channelDoctor.R$id
+au.com.twoFourSevendoctor.channelDoctor.R$layout
+au.com.twoFourSevendoctor.channelDoctor.R$menu
+au.com.twoFourSevendoctor.channelDoctor.R$string
+au.com.twoFourSevendoctor.channelDoctor.R$style
+au.com.twoFourSevendoctor.channelDoctor.activities.AppEula
+au.com.twoFourSevendoctor.channelDoctor.activities.AppEula$1
+au.com.twoFourSevendoctor.channelDoctor.activities.AppEula$2
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity:
+    android.widget.Button btnTimePicker
+    android.widget.EditText txtTime
+    android.widget.EditText firstname
+    android.widget.Spinner preDoctor
+    android.widget.Spinner preGen
+    private int mHour
+    private int mMinute
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$loadSpinnnerData
+au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity:
+    private static java.lang.String URL
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity:
+    android.widget.Button teleconBtn
+    android.widget.Button callBackBtn
+au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity:
+    private static java.lang.String URL
+au.com.twoFourSevendoctor.channelDoctor.handlers.PasswordHandler
+au.com.twoFourSevendoctor.channelDoctor.utilities.Contants:
+    3:3:public Contants()
+au.com.twoFourSevendoctor.channelDoctor.utilities.MessageDisplayer:
+    6:6:public MessageDisplayer()
+au.com.twoFourSevendoctor.channelDoctor.utilities.ResourceLoader:
+    3:3:public ResourceLoader()
+snippet.Snippet

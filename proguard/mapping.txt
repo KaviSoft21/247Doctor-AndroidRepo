@@ -1,0 +1,265 @@
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity:
+    android.app.ProgressDialog pDialog -> k
+    android.widget.EditText btnDatePicker -> a
+    android.widget.EditText btn_expiryDate -> b
+    android.widget.EditText email -> c
+    android.widget.EditText postcodetxt -> d
+    android.widget.EditText contactNum -> e
+    android.widget.EditText medicareNum -> f
+    android.widget.Spinner genderspn -> g
+    android.widget.Spinner preTime -> h
+    int mYear -> l
+    int mMonth -> m
+    int mDay -> n
+    org.json.JSONArray doctors -> i
+    android.widget.TextView bannertxt -> j
+    boolean isPostcodeValidate -> o
+    boolean userClickNext -> p
+    boolean hasData -> q
+    void onCreate(android.os.Bundle) -> onCreate
+    void fillData() -> b
+    boolean isLoggedUser() -> c
+    boolean isValidMail(java.lang.String) -> a
+    boolean isValidMobile(java.lang.String) -> b
+    boolean isValidMedicare(java.lang.String) -> c
+    boolean isMedicareValid(java.lang.String,boolean) -> a
+    void loadData() -> a
+    void onClick(android.view.View) -> onClick
+    void access$0(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity) -> a
+    void access$2(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity,boolean) -> a
+    boolean access$3(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity) -> b
+    void access$4(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity,boolean) -> b
+    boolean access$5(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity,java.lang.String) -> a
+    boolean access$6(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity) -> c
+    boolean access$7(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity) -> d
+    boolean access$8(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity,java.lang.String) -> b
+    boolean access$9(au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity,java.lang.String) -> c
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$1 -> au.com.twoFourSevendoctor.channelDoctor.activities.a:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$2 -> au.com.twoFourSevendoctor.channelDoctor.activities.b:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$3 -> au.com.twoFourSevendoctor.channelDoctor.activities.c:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$4 -> au.com.twoFourSevendoctor.channelDoctor.activities.d:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$5 -> au.com.twoFourSevendoctor.channelDoctor.activities.e:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$6 -> au.com.twoFourSevendoctor.channelDoctor.activities.f:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    android.widget.LinearLayout val$secOne -> b
+    android.widget.LinearLayout val$secTwo -> c
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$7 -> au.com.twoFourSevendoctor.channelDoctor.activities.g:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$8 -> au.com.twoFourSevendoctor.channelDoctor.activities.h:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onDateSet(android.widget.DatePicker,int,int,int) -> onDateSet
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$9 -> au.com.twoFourSevendoctor.channelDoctor.activities.i:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onDateSet(android.widget.DatePicker,int,int,int) -> onDateSet
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$BookingExecuter -> au.com.twoFourSevendoctor.channelDoctor.activities.j:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$PostCodeChecker -> au.com.twoFourSevendoctor.channelDoctor.activities.k:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity$fillDefaultData -> au.com.twoFourSevendoctor.channelDoctor.activities.l:
+    au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity:
+    android.app.ProgressDialog pDialog -> f
+    android.widget.Button callbackbtn -> a
+    android.widget.TextView bannertxt -> b
+    android.widget.EditText firstNamecbtxt -> c
+    android.widget.EditText lastnamecbtxt -> d
+    android.widget.EditText contactnumcbtxt -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean isValidMobile(java.lang.String) -> a
+    boolean isValidMedicare(java.lang.String) -> b
+    void access$0(au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity) -> a
+    boolean access$2(au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity,java.lang.String) -> a
+    boolean access$3(au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity,java.lang.String) -> b
+au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity$1 -> au.com.twoFourSevendoctor.channelDoctor.activities.m:
+    au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity$callbackProceed -> au.com.twoFourSevendoctor.channelDoctor.activities.n:
+    au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity:
+    android.widget.Button logout -> a
+    android.widget.Button call -> b
+    android.widget.Button book -> c
+    android.widget.Button home -> d
+    void onCreate(android.os.Bundle) -> onCreate
+au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity$1 -> au.com.twoFourSevendoctor.channelDoctor.activities.o:
+    au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity$2 -> au.com.twoFourSevendoctor.channelDoctor.activities.p:
+    au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity$3 -> au.com.twoFourSevendoctor.channelDoctor.activities.q:
+    au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity$4 -> au.com.twoFourSevendoctor.channelDoctor.activities.r:
+    au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity:
+    android.widget.Button registerBtn -> a
+    android.widget.Button loginBtn -> b
+    android.widget.Button callBtn -> c
+    android.widget.Button bookBtn -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity$1 -> au.com.twoFourSevendoctor.channelDoctor.activities.s:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity$2 -> au.com.twoFourSevendoctor.channelDoctor.activities.t:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity$3 -> au.com.twoFourSevendoctor.channelDoctor.activities.u:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity$4 -> au.com.twoFourSevendoctor.channelDoctor.activities.v:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity$5 -> au.com.twoFourSevendoctor.channelDoctor.activities.w:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity$6 -> au.com.twoFourSevendoctor.channelDoctor.activities.x:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity:
+    android.app.ProgressDialog pDialog -> e
+    android.widget.EditText passwordLogtxt -> a
+    android.widget.EditText email -> b
+    android.widget.TextView bannertxt -> c
+    android.widget.Button loginbtn -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean isValidMail(java.lang.String) -> a
+    void loadData() -> a
+    void access$0(au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity) -> a
+    boolean access$2(au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity,java.lang.String) -> a
+au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity$1 -> au.com.twoFourSevendoctor.channelDoctor.activities.y:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity$2 -> au.com.twoFourSevendoctor.channelDoctor.activities.z:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity$ProceedLogin -> au.com.twoFourSevendoctor.channelDoctor.activities.aa:
+    au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity:
+    android.app.ProgressDialog pDialog -> h
+    android.widget.EditText userNametxt -> a
+    android.widget.EditText passwordtxt -> b
+    android.widget.EditText fname -> c
+    android.widget.EditText lname -> d
+    android.widget.EditText passwordConfirmtxt -> e
+    android.widget.Button registerBtn -> f
+    android.widget.TextView bannertxt -> g
+    boolean isEmailExists -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean isValidMail(java.lang.String) -> a
+    void loadData() -> a
+    void access$0(au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity,android.app.ProgressDialog) -> a
+    android.app.ProgressDialog access$1(au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity) -> a
+    void access$2(au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity,boolean) -> a
+    boolean access$3(au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity,java.lang.String) -> a
+au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity$1 -> au.com.twoFourSevendoctor.channelDoctor.activities.ab:
+    au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity$2 -> au.com.twoFourSevendoctor.channelDoctor.activities.ac:
+    au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity$EmailChecker -> au.com.twoFourSevendoctor.channelDoctor.activities.ad:
+    au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity$RegisterUser -> au.com.twoFourSevendoctor.channelDoctor.activities.ae:
+    au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.String doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+au.com.twoFourSevendoctor.channelDoctor.activities.TeleconsultActivity -> au.com.twoFourSevendoctor.channelDoctor.activities.TeleconsultActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+au.com.twoFourSevendoctor.channelDoctor.handlers.HTTPProvider -> au.com.twoFourSevendoctor.channelDoctor.a.a:
+    java.net.URL url -> a
+    java.lang.String response -> b
+    java.io.OutputStream os -> c
+    java.net.HttpURLConnection conn -> d
+    java.lang.String doHTTPPostRequest(java.util.HashMap) -> a
+    java.lang.String getPostDataString(java.util.HashMap) -> b
+au.com.twoFourSevendoctor.channelDoctor.utilities.Contants -> au.com.twoFourSevendoctor.channelDoctor.b.a:
+    java.lang.String TAG_USERNAME -> a
+    java.lang.String TAG_PASSWORD -> b
+    java.lang.String TAG_REGISTRATION -> c
+    java.lang.String TAG_SUCCESS -> d
+    java.lang.String TAG_FAIL -> e
+    java.lang.String TAG_POSTCODE -> f
+    java.lang.String TAG_POST -> g
+    java.lang.String TAG_PRE_DOCTOR -> h
+    java.lang.String TAG_BOOK -> i
+    java.lang.String TAG_GETUSERDATA -> j
+    java.lang.String TAG_USERID -> k
+    java.lang.String TAG_STNAME -> l
+    java.lang.String TAG_SUBNAME -> m
+    java.lang.String TAG_PCODE -> n
+    java.lang.String TAG_FNAME -> o
+    java.lang.String TAG_LNAME -> p
+    java.lang.String TAG_EMAIL -> q
+    java.lang.String TAG_CONTNUM -> r
+    java.lang.String TAG_BDATE -> s
+    java.lang.String TAG_GEN -> t
+    java.lang.String TAG_MEDINUM -> u
+    java.lang.String TAG_REFNUM -> v
+    java.lang.String TAG_EXPDATE -> w
+    java.lang.String TAG_SYMPTON -> x
+    java.lang.String TAG_PREDOC -> y
+    java.lang.String TAG_PRETIME -> z
+    java.lang.String TAG_PREDOCGEN -> A
+    java.lang.String TAG_REASON -> B
+    java.lang.String TAG_LOGIN -> C
+    java.lang.String TAG_PASS -> D
+    java.lang.String TAG_UNAME -> E
+    java.lang.String TAG_CALLBACK -> F
+    java.lang.String TAG_CHECKUSERNAME -> G
+    java.lang.String TAG_MY_PREFS_NAME -> H
+au.com.twoFourSevendoctor.channelDoctor.utilities.MessageDisplayer -> au.com.twoFourSevendoctor.channelDoctor.b.b:
+    void ErrorToast(android.content.Context,java.lang.String) -> a
+au.com.twoFourSevendoctor.channelDoctor.utilities.ResourceLoader -> au.com.twoFourSevendoctor.channelDoctor.b.c:
+    java.lang.String connector -> a
+    java.lang.String getConnector() -> a

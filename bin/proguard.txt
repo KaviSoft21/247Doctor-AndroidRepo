@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:49
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.BookingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.CallbackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.ConfirmationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.LoadingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class au.com.twoFourSevendoctor.channelDoctor.activities.TeleconsultActivity { <init>(...); }
+
